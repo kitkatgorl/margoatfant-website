@@ -42,20 +42,22 @@ body {
 
 #header-box {
     display: flex;
-    flex-direction: column;
+    flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
     width: 42%;
+    height: 10%;
 }
 
 #heading-header {
-    font-size: 10rem;
+    font-size: 19vh;
 }
 
 #heading2-header {
-    font-size: 2rem;
+    font-size: 3.5vh;
     font-family: monospace;
     display: flex;
+    flex-wrap: nowrap;
 }
 
 #about {
@@ -69,14 +71,15 @@ body {
 }
 
 #heading-about {
-    font-size: 2.5rem;
+    font-size: 4.3vh;
 }
 
 #text-about {
     width: 85%;
     align-self: center;
-    font-size: 1.1rem;
+    font-size: 1.95vh;
     font-family: monospace;
+    line-height: 1.5;
 }
 
 #achievements {
@@ -102,13 +105,14 @@ body {
 }
 
 #heading-achievements {
-    font-size: 2.5rem;
+    font-size: 4.3vh;
 }
 
 #list-achievements {
     align-self: center;
-    font-size: 1.1rem;
+    font-size: 1.95vh;
     font-family: monospace;
+    line-height: 1.15;
 }
 
 #footer {
@@ -134,5 +138,5 @@ body {
 }
 
 #heading-footer {
-    font-size: 2.5rem;
+    font-size: 4.3vh;
 }
