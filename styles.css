@@ -1,0 +1,64 @@
+@font-face {
+    font-family: Honk;
+    src: url('fonts/Honk/Honk-Regular-VariableFont_MORF\,SHLN.ttf');
+}
+
+@font-face {
+    font-family: Cause;
+    src: url('fonts/Cause/Cause-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: Indie_Flower;
+    src: url('fonts/Indie_Flower/IndieFlower-Regular.ttf');
+}
+
+body {
+    background-color:azure;
+    display: flex;
+    height: 100vh;
+    flex-flow: column;
+    margin: 0;
+    font-family: Honk;
+}
+
+#header {
+    background-color: paleturquoise;
+    display: flex;
+    height: 25%;
+    width: 100%;
+}
+
+#about {
+    background-color: lightblue;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    height: 25%;
+    width: 100%;
+}
+
+#heading-about {
+    font-size: 2rem;
+}
+
+#text-about {
+    width: 80%;
+    align-self: center;
+    font-size: 1.2rem;
+}
+
+#achievements {
+    background-color: lightpink;
+    display: flex;
+    height: 25%;
+    width: 100%;
+}
+
+#footer {
+    background-color: lightgreen;
+    display: flex;
+    height: 25%;
+    width: 100%;
+}
