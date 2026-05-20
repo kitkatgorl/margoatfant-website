@@ -37,7 +37,7 @@ body {
 }
 
 #header > img {
-    height: 19rem;
+    height: 110%;
 }
 
 #header-box {
@@ -62,7 +62,7 @@ body {
     background-color: lightblue;
     display: flex;
     flex-flow: column wrap;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     height: 22%;
     width: 100%;
@@ -84,9 +84,21 @@ body {
     display: flex;
     height: 23%;
     width: 100%;
-    flex-flow: column wrap;
-    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
+}
+
+#achievements > img {
+    height: 80%;
+}
+
+#achievements-box {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 35%;
 }
 
 #heading-achievements {
@@ -94,7 +106,6 @@ body {
 }
 
 #list-achievements {
-    width: 35%;
     align-self: center;
     font-size: 1.1rem;
     font-family: monospace;
@@ -106,8 +117,20 @@ body {
     height: 25%;
     width: 100%;
     flex-flow: column wrap;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
+}
+
+#footer-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 65%;
+    width: 99%;
+}
+
+#footer-box > img {
+    height: 100%;
 }
 
 #heading-footer {
