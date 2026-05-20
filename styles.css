@@ -13,6 +13,10 @@
     src: url('fonts/Indie_Flower/IndieFlower-Regular.ttf');
 }
 
+* {
+    margin: 0;
+}
+
 body {
     background-color:azure;
     display: flex;
@@ -25,8 +29,33 @@ body {
 #header {
     background-color: paleturquoise;
     display: flex;
-    height: 25%;
+    height: 30%;
     width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+#header > img {
+    height: 19rem;
+}
+
+#header-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 42%;
+}
+
+#heading-header {
+    font-size: 10rem;
+}
+
+#heading2-header {
+    font-size: 2rem;
+    font-family: monospace;
+    display: flex;
 }
 
 #about {
@@ -35,25 +64,40 @@ body {
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
-    height: 25%;
+    height: 22%;
     width: 100%;
 }
 
 #heading-about {
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 
 #text-about {
-    width: 80%;
+    width: 85%;
     align-self: center;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    font-family: monospace;
 }
 
 #achievements {
     background-color: lightpink;
     display: flex;
-    height: 25%;
+    height: 23%;
     width: 100%;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#heading-achievements {
+    font-size: 2.5rem;
+}
+
+#list-achievements {
+    width: 35%;
+    align-self: center;
+    font-size: 1.1rem;
+    font-family: monospace;
 }
 
 #footer {
@@ -61,4 +105,11 @@ body {
     display: flex;
     height: 25%;
     width: 100%;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#heading-footer {
+    font-size: 2.5rem;
 }
