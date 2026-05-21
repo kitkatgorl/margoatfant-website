@@ -3,16 +3,6 @@
     src: url('fonts/Honk/Honk-Regular-VariableFont_MORF\,SHLN.ttf');
 }
 
-@font-face {
-    font-family: Cause;
-    src: url('fonts/Cause/Cause-VariableFont_wght.ttf');
-}
-
-@font-face {
-    font-family: Indie_Flower;
-    src: url('fonts/Indie_Flower/IndieFlower-Regular.ttf');
-}
-
 * {
     margin: 0;
 }
